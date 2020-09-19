@@ -1,0 +1,265 @@
+body {
+    background: rgb(250, 238, 238);
+    margin: auto;
+    background-size: cover;
+    font-family: sans-serif;
+    height: 90vh; 
+}
+
+.header {
+    background-color:  #f1bebe;
+    color: rgb(250, 238, 238);
+    display: flex;
+    height: 5px;
+    padding: 40px 20px;
+}
+
+/*MENÚ DE USUARIO*/
+.intro .logo{
+    width: 240px;
+    height: 83px;
+    position: absolute;
+    top: 1px;
+    left: calc(60px - 50px);
+}
+
+.intro .cierra-sesion{
+    color: rgb(39, 5, 43);
+    font-family: 'Lucida Sans', cursive;
+    font-size: 18px;
+    transform: translate(1180px, -35px);
+}
+
+.intro .foto-usuario {
+    width: 70px;
+    left: 70px;
+    transform: translate(1060px, -80px);
+    border-radius: 50px;
+}
+
+.intro .foto-carrito {
+    width: 50px;
+    left: 50px;
+    transform: translate(890px, -89px);
+}
+
+/* BOTONES DE IMAGENES */
+
+.foto-categoria h2{
+    font-size: 40px;
+    font-family: 'Times New Roman', cursive;
+    line-height: 4.0;
+    letter-spacing: -.2px;
+    color: rgb(88, 8, 62);
+    margin: 0;
+    text-align: center;
+
+}
+.foto-categoria .foto{
+    width: 150px;
+    height: 150px;
+    transform: translate(300px, 10px);
+    margin: 15.5px ;
+}
+
+.foto-categoria .categ{
+    font-size: 30px;
+    font-family: 'Times New Roman', cursive;
+    letter-spacing: -.2px;
+    color: rgb(97, 6, 74);
+    margin: 0;
+    text-align: center;
+}
+
+
+
+
+
+
+
+/* CAROUSEEEELLLLLLLLLLLLLLL*/
+.Carousel{
+    width: 80%;
+    margin: 0px 150px;
+}
+
+.Carousel h1{
+    font-size: 40px;
+    font-family: 'Times New Roman', cursive;
+    line-height: 4.5;
+    letter-spacing: -.2px;
+    color: rgb(121, 33, 6);
+    margin: 0;
+    text-align: center;
+}
+
+/* imagenes */
+
+.slick-list{
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    height: 400px;
+    padding: 10px 0px;
+    margin: 0px auto;
+    max-width: 90vw;
+    overflow: hidden;
+}
+.slick-track{
+    position: relative;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    transition: .5s ease-in-out;
+}
+.slick{
+    position: relative;
+    width: 275px;
+    padding: 0 18px;
+    float: left;
+    box-sizing: border-box;
+    display: flex;
+    height: 100%;
+}
+
+.slick a img{
+    object-fit: cover;
+    height: 400px;
+    width: 108%;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.5);
+    transition: .3s ease-in-out;
+}
+.slick a img:hover{
+    opacity: .85;
+}
+
+/* buttons */
+
+.slick-arrow{
+    border-radius: 30px;
+    background-color: rgb(179, 26, 77);
+    position: absolute;
+    z-index: 4;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.15);
+    border: 0;
+    cursor: pointer;
+}
+.slick-arrow:focus{
+    outline: 0;
+}
+.slick-arrow svg{
+    width: 12px;
+    height: 100%;
+    color: rgba(0,0,0,.7);
+}
+.slick-prev{
+    left: 0px;
+}
+.slick-next{
+    right: 0px;
+}
+
+
+/*PRODUCTOS NUEVOS: PASTELES*/
+.titulo {
+    color: #410c7e;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+
+
+
+.contenedor {
+    width: 90%;
+    max-width: 900px;
+    margin: auto;
+   
+}
+
+
+.galeria-port{
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
+    top: 40%;
+    left: 3%;    
+}
+
+.imagen-port{
+    width: 24%;
+    margin-bottom: 10px;
+    position: relative;
+    object-fit: cover;
+    margin: 40px ;
+}
+
+.imagen-port > img{
+    width: 120%;
+    height: 120%;
+    object-fit: cover;
+    justify-content: center;
+    
+}
+
+.hover-galeria{
+    position: absolute;
+    width: 120%;
+    height: 120%;
+    top: 0;
+    transform: scale(0);
+    background: rgba(234, 131, 238, 0.7);
+    transition: transform .5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.hover-galeria img{
+    width: 50px;
+}
+
+.hover-galeria p{
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    text-align: center;
+    
+}
+
+.imagen-port:hover .hover-galeria{
+    transform: scale(1);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
